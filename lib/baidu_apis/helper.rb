@@ -11,7 +11,8 @@ module BaiduApis
       def weather
         {
             method: "get",
-            url: "apistore/weatherservice/cityname"
+            url: "apistore/weatherservice/cityname",
+            param_key: "cityname"
         }
       end
 
@@ -19,7 +20,8 @@ module BaiduApis
       def phone
         {
             method: "get",
-            url: "apistore/mobilenumber/mobilenumber"
+            url: "apistore/mobilenumber/mobilenumber",
+            param_key: "phone"
         }
       end
 
